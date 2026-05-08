@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Visit Beijing - AI-Powered Inbound Travel Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50">
+
+<!-- 导航栏 + 语言切换 -->
+<nav class="bg-blue-900 text-white p-4 sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+        <h1 class="text-xl font-bold">I Visit Beijing</h1>
+        <div class="space-x-5">
+            <a href="#home" class="hover:text-yellow-300">Home</a>
+            <a href="#about" class="hover:text-yellow-300">About</a>
+            <a href="#services" class="hover:text-yellow-300">Services</a>
+            <a href="#framework" class="hover:text-yellow-300">4A Framework</a>
+            <a href="#contact" class="hover:text-yellow-300">Contact</a>
+            <button id="langBtn" class="bg-yellow-400 text-blue-900 px-3 py-1 rounded font-bold">中文</button>
+        </div>
+    </div>
+</nav>
+
+<!-- 首页 Banner -->
+<section id="home" class="bg-blue-800 text-white py-24 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">I Visit Beijing</h1>
+    <p class="text-xl mb-8">AI-Powered One-Stop Service Platform for Inbound Tourists</p>
+    <button class="bg-yellow-400 px-8 py-3 rounded text-blue-900 font-bold">Start Your Journey</button>
+</section>
+
+<!-- About Project -->
+<section id="about" class="max-w-6xl mx-auto py-16 px-4">
+    <h2 class="text-2xl font-bold mb-6 text-blue-900">About the Project</h2>
+    <p class="text-gray-700 leading-8 text-lg">
+        I Visit Beijing is an AI-driven one-stop service platform designed for overseas tourists visiting Beijing. 
+        It solves core pain points such as language barriers, information asymmetry, cultural adaptation, 
+        and inconvenient travel experiences. Based on the collaboration of domestic and international large models, 
+        the platform provides whole-process, multi-language, and personalized intelligent tourism services, 
+        helping global visitors enjoy a better travel experience in Beijing.
+    </p>
+</section>
+
+<!-- Our Services -->
+<section id="services" class="bg-blue-50 py-16">
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-2xl font-bold mb-8 text-blue-900">Core Services</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+            <div class="bg-white p-6 rounded shadow">
+                <h3 class="font-bold text-lg mb-3">AI Personalized Itinerary Planning</h3>
+                <p>Generate one-stop solutions covering food, accommodation, transportation, tours, shopping and entertainment.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded shadow">
+                <h3 class="font-bold text-lg mb-3">Multi-language Real-time Interaction</h3>
+                <p>Support voice, text and photo translation for barrier-free communication in Beijing.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded shadow">
+                <h3 class="font-bold text-lg mb-3">AI Crowd & Attraction Prediction</h3>
+                <p>Forecast passenger flow and recommend off-peak routes to avoid crowds.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded shadow">
+                <h3 class="font-bold text-lg mb-3">Cultural Adaptation Guidance</h3>
+                <p>Provide etiquette tips, attraction rules, consumption protection and emergency assistance.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded shadow">
+                <h3 class="font-bold text-lg mb-3">One-stop Booking & Price Comparison</h3>
+                <p>Hotels, tickets, restaurants and homestays can be reserved in one click.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded shadow">
+                <h3 class="font-bold text-lg mb-3">AI Travel Log Generation</h3>
+                <p>Automatically generate travel videos and multilingual travelogues.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- 4A Framework -->
+<section id="framework" class="py-16 max-w-6xl mx-auto px-4">
+    <h2 class="text-2xl font-bold mb-8 text-blue-900">4A Marketing Logic Framework</h2>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 text-center font-bold">
+        <div class="bg-blue-100 p-5 rounded">Value Insight</div>
+        <div class="bg-blue-200 p-5 rounded">Value Delivery</div>
+        <div class="bg-blue-300 p-5 rounded">Value Action</div>
+        <div class="bg-blue-400 p-5 rounded">Value Advocacy</div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="bg-blue-900 text-white py-12 text-center">
+    <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
+    <p class="mb-2">Email: service@ivisitbeijing.com</p>
+    <p>Address: Beijing, China</p>
+</section>
+
+<!-- Footer -->
+<footer class="bg-blue-950 text-white text-center p-4">
+    <p>I Visit Beijing © 2026 | AI-Powered One-Stop Inbound Travel Platform</p>
+</footer>
+
+<!-- 语言切换简单脚本 -->
+<script>
+    const btn = document.getElementById('langBtn');
+    btn.addEventListener('click', () => {
+        alert('Language switch function can be expanded on demand');
+    });
+</script>
+
+</body>
+</html>
